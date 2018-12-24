@@ -1,0 +1,35 @@
+class Q25
+{
+	public static void main(String[] args) 
+	{
+		int i;
+		for(i=1; i<=8; i++)
+		{
+			for(int j=i; j>=1; j--)
+			{
+				if (i == 1 || i == 8 || j == 1 || j == i)
+				{
+						System.out.print(i);
+				}
+				else
+				System.out.print("0");
+			}	
+			System.out.println();
+		}
+	}
+}
+
+/* 
+
+E:\Patterns\p2\src>java -cp ../classes Q24
+1
+11
+101
+1001
+10001
+100001
+1000001
+11111111
+87654321
+
+*/
